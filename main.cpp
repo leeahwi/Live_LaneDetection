@@ -326,7 +326,10 @@ int main(int, char**)
 	Mat img_bgr, img_gray, img_edges, img_hough, img_annotated;
 
 
-	VideoCapture videoCapture("../challenge.mp4");
+    VideoCapture videoCapture("../challenge.mp4");
+	//VideoCapture videoCapture("../KoreaTechLaneDetectionExample1.mp4");
+
+    //VideoCapture videoCapture("../solidWhiteRight.mp4");
 
 	if (!videoCapture.isOpened())
 	{
